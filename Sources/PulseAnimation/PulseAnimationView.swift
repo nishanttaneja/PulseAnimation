@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class PulseAnimationView: UIView {
+open class PulseAnimationView: UIView {
     
     // MARK: - Subview
     
@@ -53,7 +53,7 @@ public class PulseAnimationView: UIView {
         addTextLabel()
     }
     
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     

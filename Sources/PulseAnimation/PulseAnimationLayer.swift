@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class PulseAnimationLayer: CALayer {
+open class PulseAnimationLayer: CALayer {
     
     /// KeyPath for updating pulse-scaling animaiton.
     static private let SCALE_ANIMATION_KEYPATH = "transform.scale.xy"
