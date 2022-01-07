@@ -1,3 +1,3 @@
 # PulseAnimation
 
-A description of this package.
+This package contains customizable CALayer and UIView subclasses for displaying pulse animations.
